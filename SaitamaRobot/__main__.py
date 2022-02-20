@@ -78,7 +78,7 @@ Built by weebs for weebs, I specialize in managing anime eccentric communities!
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
+I'm a Waifu For You and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -231,24 +231,24 @@ def start(update: Update, context: CallbackContext):
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="🔔 Updates",
-                                url="https://t.me/OnePunchUpdates",
+                                text="Off Topic Anime Chat",
+                                url="https://t.me/bestwalefriends",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🧾 Getting Started",
-                                url="https://t.me/OnePunchUpdates/29",
+                                url="https://t.me/bestwalefriends/95745",
                             ),
                             InlineKeyboardButton(
                                 text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
+                                url="https://github.com/",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="☠️ Kaizoku Network",
-                                url="https://t.me/Kaizoku/4",
+                                text="Our Another Bot",
+                                url="https://t.me/gokuthebot",
                             ),
                         ],
                     ],
